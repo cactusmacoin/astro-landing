@@ -2,14 +2,13 @@
   "name": "astro-landing",
   "type": "module",
   "version": "0.0.1",
-  "homepage":"https://cactusmacoin.github.io/astro-landing/",
+  
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "gh-pages -d dist"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
@@ -24,6 +23,6 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    
   }
 }
