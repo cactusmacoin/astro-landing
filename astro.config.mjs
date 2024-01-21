@@ -5,5 +5,9 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+
+  site: 'https://cactusmacoin.github.io',
+  base: '/astro-landing',
+
   integrations: [tailwind(), react()]
 });
